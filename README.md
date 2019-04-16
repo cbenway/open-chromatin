@@ -12,10 +12,14 @@ Assaying open chromatin to understand genetic and epigenetic mechanisms of lung 
 
 - PMID: []() PMCID: []() DOI: []()
 
+# Data standards
+- [ATAC-seq Data Standards and Prototype Processing Pipeline](https://www.encodeproject.org/atac-seq/) The prototype ATAC-seq pipeline was developed by Anshul Kundaje's lab at Stanford University. Upon revision and full implementation, it will be a part of the [ENCODE Uniform Processing Pipelines series](https://www.encodeproject.org/pipelines/). The full ATAC-seq pipeline code is available on [Github](https://github.com/ENCODE-DCC/atac-seq-pipeline). Describes standards for pipeline and experiment design (such as library complexity, FRiP score and TSS enrichment score guidelines; see [defintions of terms](https://www.encodeproject.org/data-standards/terms).
+
+
 # Software for analysis of ATAC-seq data
 ## Technical analysis and quality control
-- [ATACseqQC](https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html) - [R] Produces diagnostic plots of fragment size distribution, proportion of mitochondria reads, nucleosome positioning pattern, and CTCF or other Transcript Factor footprints. [Examples](https://bioconductor.org/packages/release/bioc/vignettes/ATACseqQC/inst/doc/ATACseqQC.html)
-- [esATAC](https://bioconductor.org/packages/release/bioc/html/esATAC.html) - [R] Provides a framework and complete preset pipeline for quantification and analysis of ATAC-seq reads; [Examples](https://bioconductor.org/packages/release/bioc/vignettes/esATAC/inst/doc/esATAC-Introduction.html)
+- [ATACseqQC](https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html) - [R] Produces diagnostic plots of fragment size distribution, proportion of mitochondria reads, nucleosome positioning pattern, and CTCF or other Transcript Factor footprints; [examples](https://bioconductor.org/packages/release/bioc/vignettes/ATACseqQC/inst/doc/ATACseqQC.html).
+- [esATAC](https://bioconductor.org/packages/release/bioc/html/esATAC.html) - [R] Provides a framework and complete preset pipeline for quantification and analysis of ATAC-seq reads; [examples](https://bioconductor.org/packages/release/bioc/vignettes/esATAC/inst/doc/esATAC-Introduction.html).
 ## For single-cell ATAC analysis
 - [ChromVAR](https://bioconductor.org/packages/release/bioc/html/chromVAR.html) - [R] - Determine variations in chromatin accessibility across sets of annotations or peaks. Designed primarily for single-cell or sparse chromatin accessibility data, e.g. from scATAC-seq or sparse bulk ATAC or DNAse-seq experiments. [BioRxiv](https://www.biorxiv.org/content/early/2017/02/21/110346)
 - [cicero](https://cole-trapnell-lab.github.io/cicero-release/) - [R] - Predicts enhancer-gene pairs by co-accessibility. Also adapts [monocle](http://cole-trapnell-lab.github.io/monocle-release/) for single-cell ATAC-seq (clustering, trajectories, differential accessibility).
