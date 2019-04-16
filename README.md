@@ -9,4 +9,13 @@ Assaying open chromatin to understand genetic and epigenetic mechanisms of lung 
 - **Lineage-specific and single-cell chromatin accessibility charts human hematopoiesis and leukemia evolution.** Corces MR, Buenrostro JD, Wu B, Greenside PG, Chan SM, Koenig JL, Snyder MP, Pritchard JK, Kundaje A, Greenleaf WJ, Majeti R, Chang HY. Nat Genet. 2016 Oct;48(10):1193-203. PMID: [27526324](https://www.ncbi.nlm.nih.gov/pubmed/27526324) PMCID: [PMC5042844](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5042844/) DOI: [10.1038/ng.3646](https://doi.org/10.1038/ng.3646)
 
 - **An improved ATAC-seq protocol reduces background and enables interrogation of frozen tissues.** Corces MR, Trevino AE, Hamilton EG, Greenside PG, Sinnott-Armstrong NA, Vesuna S, Satpathy AT, Rubin AJ, Montine KS, Wu B, Kathiria A, Cho SW, Mumbach MR, Carter AC, Kasowski M, Orloff LA, Risca VI, Kundaje A, Khavari PA, Montine TJ, Greenleaf WJ, Chang HY. *Nat Methods*. 2017 Oct;14(10):959-962. PMID: [28846090](https://www.ncbi.nlm.nih.gov/pubmed/28846090) PMCID: [PMC5623106](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5623106/) DOI: [10.1038/nmeth.4396](https://doi.org/10.1038/nmeth.4396)
+
 - PMID: []() PMCID: []() DOI: []()
+
+# Software for analysis of ATAC-seq data
+## Technical analysis and quality control
+- [ATACseqQC](https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html) - [R] Produces diagnostic plots of fragment size distribution, proportion of mitochondria reads, nucleosome positioning pattern, and CTCF or other Transcript Factor footprints. [Examples](https://bioconductor.org/packages/release/bioc/vignettes/ATACseqQC/inst/doc/ATACseqQC.html)
+- [esATAC](https://bioconductor.org/packages/release/bioc/html/esATAC.html) - [R] Provides a framework and complete preset pipeline for quantification and analysis of ATAC-seq reads; [Examples](https://bioconductor.org/packages/release/bioc/vignettes/esATAC/inst/doc/esATAC-Introduction.html)
+## For single-cell ATAC analysis
+- [ChromVAR](https://bioconductor.org/packages/release/bioc/html/chromVAR.html) - [R] - Determine variations in chromatin accessibility across sets of annotations or peaks. Designed primarily for single-cell or sparse chromatin accessibility data, e.g. from scATAC-seq or sparse bulk ATAC or DNAse-seq experiments. [BioRxiv](https://www.biorxiv.org/content/early/2017/02/21/110346)
+- [cicero](https://cole-trapnell-lab.github.io/cicero-release/) - [R] - Predicts enhancer-gene pairs by co-accessibility. Also adapts [monocle](http://cole-trapnell-lab.github.io/monocle-release/) for single-cell ATAC-seq (clustering, trajectories, differential accessibility).
