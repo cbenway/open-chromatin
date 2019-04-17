@@ -23,3 +23,12 @@ Assaying open chromatin to understand genetic and epigenetic mechanisms of lung 
 ## For single-cell ATAC analysis
 - [ChromVAR](https://bioconductor.org/packages/release/bioc/html/chromVAR.html) - [R] - Determine variations in chromatin accessibility across sets of annotations or peaks. Designed primarily for single-cell or sparse chromatin accessibility data, e.g. from scATAC-seq or sparse bulk ATAC or DNAse-seq experiments. [BioRxiv](https://www.biorxiv.org/content/early/2017/02/21/110346)
 - [cicero](https://cole-trapnell-lab.github.io/cicero-release/) - [R] - Predicts enhancer-gene pairs by co-accessibility. Also adapts [monocle](http://cole-trapnell-lab.github.io/monocle-release/) for single-cell ATAC-seq (clustering, trajectories, differential accessibility).
+
+# ATAC-seq papers
+### 2019
+- 
+
+### 2018
+- **Evaluation of chromatin accessibility in prefrontal cortex of individuals with schizophrenia.** Bryois J, Garrett ME, Song L, Safi A, Giusti-Rodriguez P, Johnson GD, Shieh AW, Buil A, Fullard JF, Roussos P, Sklar P, Akbarian S, Haroutunian V, Stockmeier CA, Wray GA, White KP, Liu C, Reddy TE, Ashley-Koch A, Sullivan PF, Crawford GE. *Nat Commun.* 2018; 9: 3121. PMID: 30087329 PMCID: PMC6081462 DOI: 10.1038/s41467-018-05379-y
+
+### 2017
