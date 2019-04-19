@@ -14,6 +14,7 @@ Assaying open chromatin to understand genetic and epigenetic mechanisms of lung 
 
 # Data standards
 - [ATAC-seq Data Standards and Prototype Processing Pipeline](https://www.encodeproject.org/atac-seq/) The prototype ATAC-seq pipeline was developed by Anshul Kundaje's lab at Stanford University. Upon revision and full implementation, it will be a part of the [ENCODE Uniform Processing Pipelines series](https://www.encodeproject.org/pipelines/). The full ATAC-seq pipeline code is available on [Github](https://github.com/ENCODE-DCC/atac-seq-pipeline). Describes standards for pipeline and experiment design (such as library complexity, FRiP score and TSS enrichment score guidelines; see [defintions of terms](https://www.encodeproject.org/data-standards/terms).
+- [ATAC-seq Guidelines Harvard FAS Informatics](https://informatics.fas.harvard.edu/atac-seq-guidelines.html) Pipeline and best practices used by Harvard FAS Informatics Core. [[Original version]](https://informatics.fas.harvard.edu/atac-seq-guidelines-old-version.html)
 
 
 # Software for analysis of ATAC-seq data
@@ -29,6 +30,7 @@ Assaying open chromatin to understand genetic and epigenetic mechanisms of lung 
 - 
 
 ### 2018
+- **Parkinson-Associated SNCA Enhancer Variants Revealed by Open Chromatin in Mouse Dopamine Neurons.** McClymont SA, Hook PW, Soto AI, Reed X, Law WD, Kerans SJ, Waite EL, Briceno NJ, Thole JF, Heckman MG, Diehl NN, Wszolek ZK, Moore CD, Zhu H, Akiyama JA, Dickel DE, Visel A, Pennacchio LA, Ross OA, Beer MA, McCallion AS. *Am J Hum Genet.* 2018 Dec 6;103(6):874-892. PMID: 30503521 PMCID: PMC6288322 DOI: 10.1016/j.ajhg.2018.10.018.
 - **Evaluation of chromatin accessibility in prefrontal cortex of individuals with schizophrenia.** Bryois J, Garrett ME, Song L, Safi A, Giusti-Rodriguez P, Johnson GD, Shieh AW, Buil A, Fullard JF, Roussos P, Sklar P, Akbarian S, Haroutunian V, Stockmeier CA, Wray GA, White KP, Liu C, Reddy TE, Ashley-Koch A, Sullivan PF, Crawford GE. *Nat Commun.* 2018; 9: 3121. PMID: 30087329 PMCID: PMC6081462 DOI: 10.1038/s41467-018-05379-y
 
 ### 2017
